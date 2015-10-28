@@ -1,6 +1,6 @@
 Skype Maltego Transforms
 =======
-@author: Stuart Kennedy 
+@author: Stuart Kennedy
 @company: Sensepost  
 
 1. Scope
@@ -16,11 +16,15 @@ Python 2.7.x License: [https://docs.python.org/2/license.html](https://docs.pyth
 
 Once Python is installed, install the Skype4Py library. These transforms have been created and tested successfully with the latest version. Please visit the following page for installation instructions:
 
-[https://github.com/awahlig/skype4py](https://github.com/awahlig/skype4py)  
+[https://github.com/awahlig/skype4py](https://github.com/awahlig/skype4py)
 
+<b>pip install skype4py</b>
+-
 <b>Note: You will need to have Skype running and logged into for the transforms to work. </b>
 
-5. Transforms
+Tested on Ubuntu with Skype 4.3.0.37 ([Latest available version](http://www.skype.com/en/download-skype/skype-for-linux/))
+-
+3. Transforms
 -
 You will need to add the transforms as "Local" Transforms for now until we add them to the Sensepost TDS
 
@@ -50,7 +54,7 @@ The following transforms have been created for the Skype transform set:
 	
 5. **Skype Phone Search** - A transform that will return persons assosiated with that phone number (may be multiple).  
 
-	Required Maltego entity input: Phone Number  
+	Required Maltego entity input: Phone Number
 	Maltego entity output: Person
 
 5. **Skype Person Search** - A transform that will return persons assosiated with a name used (may be multiple).  
