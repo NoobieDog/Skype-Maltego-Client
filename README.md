@@ -5,7 +5,7 @@ Skype Maltego Transforms
 
 1. Scope
 -
-This document describes each Maltego transform designed to use the Skype4py API. Also included are instructions to set up Python 2.7.x and the required librarys, which are prerequisites to using the Maltego transforms. The Maltego transforms are able to run on any platform that runs Maltego and Python. 
+This document describes each Maltego transform designed to use the Skype4py API. Also included are instructions to set up Python 2.7.x and the required libraries, which are prerequisites to using the Maltego transforms. The Maltego transforms are able to run on any platform that runs Maltego and Python. 
 <br>
 2. Prerequisites: Python + Skype4py Library
 -
@@ -42,22 +42,22 @@ The following transforms have been created for the Skype transform set:
 	Required Maltego entity input: Person  
 	Maltego entity output: IPv4 Address
 
-3. **Skype Profile Location** - A transform that will return the location entitiy of a selected skype profile.  
+3. **Skype Profile Location** - A transform that will return the location entity of a selected skype profile.  
 
 	Required Maltego entity input: Person  
 	Maltego entity output: Location
 	
-4. **Skype Email Search** - A transform that will return persons assosiated with that email address (may be multiple).  
+4. **Skype Email Search** - A transform that will return persons associated with that email address (may be multiple).  
 
 	Required Maltego entity input: Email address  
 	Maltego entity output: Person
 	
-5. **Skype Phone Search** - A transform that will return persons assosiated with that phone number (may be multiple).  
+5. **Skype Phone Search** - A transform that will return persons associated with that phone number (may be multiple).  
 
 	Required Maltego entity input: Phone Number  
 	Maltego entity output: Person
 
-5. **Skype Person Search** - A transform that will return persons assosiated with a name used (may be multiple).  
+5. **Skype Person Search** - A transform that will return persons associated with a name used (may be multiple).  
 
 	Required Maltego entity input: Person  
 	Maltego entity output: Person
